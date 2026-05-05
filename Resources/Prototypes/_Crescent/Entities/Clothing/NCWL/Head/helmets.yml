@@ -1,4 +1,3 @@
-
 - type: entity
   parent: ClothingHeadHelmetBasic
   id: ClothingHeadHelmetNCWLBasic
@@ -9,6 +8,21 @@
     sprite: _Crescent/Clothing/NCWL/Head/ncwlhelmet.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/NCWL/Head/ncwlhelmet.rsi
+  - type: ReverseEngineering # SectorCrescent
+    recipes:
+      - ClothingHeadHelmetNCWLBasic
+      - ClothingOuterArmorNCWLLightBodyarmor
+
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: ClothingHeadHelmetChengridz
+  name: 2B6W Combat Helmet
+  description: A slightly modernized version of the 2B5 combat helmet, made with UHMPWE instead of aramid fiber, currently being issued specifically to Homeguard Army units. This one is white.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/GROUNDROLES/chengridzhelmet.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/GROUNDROLES/chengridzhelmet.rsi
   - type: ReverseEngineering # SectorCrescent
     recipes:
       - ClothingHeadHelmetNCWLBasic

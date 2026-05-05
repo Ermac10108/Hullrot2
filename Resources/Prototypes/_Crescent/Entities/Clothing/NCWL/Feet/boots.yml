@@ -44,3 +44,14 @@
     sprite: _Crescent/Clothing/NCWL/Feet/mvdshoes.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/NCWL/Feet/mvdshoes.rsi
+
+- type: entity
+  parent: ClothingShoesMilitaryBase
+  id: ClothingShoesBootsGroundAssaultBoots
+  name: Homeguard Army Assault Boots
+  description: A set of thick, tall, leather boots, built for long marches. Not particularly comfortable.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/GROUNDROLES/groundassaultboots.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/GROUNDROLES/groundassaultboots.rsi

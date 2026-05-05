@@ -111,3 +111,16 @@
     sprite: _Crescent/Clothing/NCWL/Uniform/mvdgoon.rsi
   - type: Clothing
     sprite: _Crescent/Clothing/NCWL/Uniform/mvdgoon.rsi
+
+## Ground Roles
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitChengridzHomeguard
+  name: Homeguard Army Winter Fatigues
+  description: A simple set of fatigues, comprised of a jacket and trousers. This one has a white jacket, and standard green trousers. Features the patch of the 10th Homeguard Infantry.
+  components:
+  - type: Sprite
+    sprite: _Crescent/Clothing/NCWL/GROUNDROLES/chengridzuniform.rsi
+  - type: Clothing
+    sprite: _Crescent/Clothing/NCWL/GROUNDROLES/chengridzuniform.rsi
