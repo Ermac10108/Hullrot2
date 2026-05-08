@@ -31,7 +31,7 @@
           collection: MetalSlam
     - trigger:
         !type:DamageTrigger
-        damage: 400
+        damage: 600
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -237,7 +237,7 @@
       thresholds:
         - trigger:
             !type:DamageTrigger
-            damage: 1750
+            damage: 1000
           behaviors:
             - !type:SpawnEntitiesBehavior
               spawn:
